@@ -1,0 +1,31 @@
+# FastAPI核心框架
+fastapi==0.121.2
+uvicorn==0.38.0
+
+# 数据库相关
+SQLAlchemy==2.0.44
+pymysql==1.1.0
+alembic==1.16.5
+
+# 用户认证和安全
+passlib==1.7.4
+python-jose[cryptography]==3.3.0
+python-multipart==0.0.9
+python-dotenv==1.2.1
+
+# 数据处理
+pydantic==2.12.3
+
+# 常用工具
+requests==2.32.5
+httpx==0.28.1
+
+# AI和图像处理（可选，按需安装）
+# opencv-python==4.12.0.88
+# openai==2.24.0
+# langchain==1.0.3
+
+# 其他工具
+python-dateutil==2.9.0.post0
+Pillow==10.3.0
+PyYAML==6.0.3
